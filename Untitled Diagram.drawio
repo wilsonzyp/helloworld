@@ -1,11 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2020-08-26T05:52:26.690Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="R4lFca5jNhEWlXckg9eE" version="13.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-26T06:54:43.465Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="MlBl2Vl3ZDRx9MXhKsS8" version="13.6.5" type="github">
   <diagram id="2dCJU3s-ya0W76Wx-eeu" name="Page-1">
     <mxGraphModel dx="894" dy="1711" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="7Vk1GqJ0Fqkz_hd2wlw9-86" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="10" y="410" width="780" height="970" as="geometry" />
+        </mxCell>
         <mxCell id="7Vk1GqJ0Fqkz_hd2wlw9-59" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="10" y="70" width="750" height="330" as="geometry" />
+          <mxGeometry x="10" y="70" width="780" height="330" as="geometry" />
         </mxCell>
         <mxCell id="7Vk1GqJ0Fqkz_hd2wlw9-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7Vk1GqJ0Fqkz_hd2wlw9-1" target="7Vk1GqJ0Fqkz_hd2wlw9-2">
           <mxGeometry relative="1" as="geometry" />
@@ -46,8 +49,10 @@
         <mxCell id="7Vk1GqJ0Fqkz_hd2wlw9-6" value="对以id为key的数据&lt;br&gt;聚合所有信息&lt;br&gt;（&lt;b&gt;生成gidMap）&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="180" y="415" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7Vk1GqJ0Fqkz_hd2wlw9-12" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="7Vk1GqJ0Fqkz_hd2wlw9-7" target="7Vk1GqJ0Fqkz_hd2wlw9-11">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="7Vk1GqJ0Fqkz_hd2wlw9-12" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7Vk1GqJ0Fqkz_hd2wlw9-7" target="7Vk1GqJ0Fqkz_hd2wlw9-66">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="640" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="7Vk1GqJ0Fqkz_hd2wlw9-43" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7Vk1GqJ0Fqkz_hd2wlw9-7" target="7Vk1GqJ0Fqkz_hd2wlw9-8">
           <mxGeometry relative="1" as="geometry">
@@ -65,19 +70,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7Vk1GqJ0Fqkz_hd2wlw9-8" value="gidinfo = null" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="30" y="1220" width="85" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="7Vk1GqJ0Fqkz_hd2wlw9-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="7Vk1GqJ0Fqkz_hd2wlw9-11" target="7Vk1GqJ0Fqkz_hd2wlw9-66">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="7Vk1GqJ0Fqkz_hd2wlw9-11" value="根据机型计算权重" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="177.5" y="640" width="125" height="40" as="geometry" />
+          <mxGeometry x="30" y="1172.5" width="85" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7Vk1GqJ0Fqkz_hd2wlw9-22" value="按照排序顺序判断" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7Vk1GqJ0Fqkz_hd2wlw9-18" target="7Vk1GqJ0Fqkz_hd2wlw9-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="7Vk1GqJ0Fqkz_hd2wlw9-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="7Vk1GqJ0Fqkz_hd2wlw9-18" target="7Vk1GqJ0Fqkz_hd2wlw9-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="7Vk1GqJ0Fqkz_hd2wlw9-18" value="对gidInfoList&lt;br&gt;进行排序" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="180" y="870" width="120" height="50" as="geometry" />
+          <mxGeometry x="180" y="822.5" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="7Vk1GqJ0Fqkz_hd2wlw9-26" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7Vk1GqJ0Fqkz_hd2wlw9-20" target="7Vk1GqJ0Fqkz_hd2wlw9-18">
           <mxGeometry relative="1" as="geometry" />
@@ -86,14 +88,14 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7Vk1GqJ0Fqkz_hd2wlw9-20" value="&quot;TMP&quot;开头" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="185" y="960" width="110" height="60" as="geometry" />
+          <mxGeometry x="185" y="912.5" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7Vk1GqJ0Fqkz_hd2wlw9-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7Vk1GqJ0Fqkz_hd2wlw9-23" target="7Vk1GqJ0Fqkz_hd2wlw9-18">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="178" y="910" as="targetPoint" />
+            <mxPoint x="178" y="862.5" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="160" y="1160" />
-              <mxPoint x="160" y="895" />
+              <mxPoint x="160" y="1112.5" />
+              <mxPoint x="160" y="847.5" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -106,13 +108,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7Vk1GqJ0Fqkz_hd2wlw9-23" value="&quot;adid&quot;类型&lt;br&gt;不是&quot;ANDROID&quot;开头" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="172.5" y="1130" width="135" height="60" as="geometry" />
+          <mxGeometry x="172.5" y="1082.5" width="135" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7Vk1GqJ0Fqkz_hd2wlw9-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7Vk1GqJ0Fqkz_hd2wlw9-24" target="7Vk1GqJ0Fqkz_hd2wlw9-18">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="160" y="1070" />
-              <mxPoint x="160" y="895" />
+              <mxPoint x="160" y="1022.5" />
+              <mxPoint x="160" y="847.5" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -128,22 +130,30 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7Vk1GqJ0Fqkz_hd2wlw9-24" value="&quot;idfa&quot; 类型&lt;br&gt;不是&quot;IOS&quot;开头" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="185" y="1040" width="110" height="60" as="geometry" />
+          <mxGeometry x="185" y="992.5" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7Vk1GqJ0Fqkz_hd2wlw9-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="7Vk1GqJ0Fqkz_hd2wlw9-36" target="7Vk1GqJ0Fqkz_hd2wlw9-38">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7Vk1GqJ0Fqkz_hd2wlw9-36" value="&lt;span&gt;返回gidInfoList中&lt;/span&gt;&lt;br&gt;&lt;span&gt;第一个符合条件的gidinfo&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="1220" width="160" height="60" as="geometry" />
+          <mxGeometry x="160" y="1172.5" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7Vk1GqJ0Fqkz_hd2wlw9-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7Vk1GqJ0Fqkz_hd2wlw9-38" target="7Vk1GqJ0Fqkz_hd2wlw9-40">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="7Vk1GqJ0Fqkz_hd2wlw9-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="7Vk1GqJ0Fqkz_hd2wlw9-38" target="7Vk1GqJ0Fqkz_hd2wlw9-84">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="390" y="1312.5" />
+              <mxPoint x="390" y="1187.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="7Vk1GqJ0Fqkz_hd2wlw9-38" value="reduce阶段输出" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="1340" width="120" height="40" as="geometry" />
+          <mxGeometry x="80" y="1292.5" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="7Vk1GqJ0Fqkz_hd2wlw9-40" value="step4 vote阶段结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="1420" width="120" height="60" as="geometry" />
+          <mxGeometry x="85" y="1410" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7Vk1GqJ0Fqkz_hd2wlw9-50" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;输入字段&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;&amp;lt;idType&amp;gt;:&amp;lt;id&amp;gt;:&amp;lt;typeLevel&amp;gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;&amp;lt;gidInfo&amp;gt;（gid基本信息）&lt;/li&gt;&lt;li&gt;&amp;lt;source&amp;gt;（数据来源）&lt;/li&gt;&lt;li&gt;&amp;lt;count&amp;gt;（汇报次数）&lt;/li&gt;&lt;li&gt;&amp;lt;modelInfo&amp;gt;（机型信息）&lt;/li&gt;&lt;li&gt;&amp;lt;modelInfoBefore&amp;gt;&lt;/li&gt;&lt;li&gt;&amp;lt;idValue&amp;gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
           <mxGeometry x="380" y="85" width="210" height="150" as="geometry" />
@@ -151,7 +161,7 @@
         <mxCell id="7Vk1GqJ0Fqkz_hd2wlw9-53" value="&lt;div&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;&lt;b&gt;map阶段输出&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;key：&lt;/b&gt;id&lt;/div&gt;&lt;div&gt;&lt;b&gt;value：&lt;/b&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;&amp;lt;idType&amp;gt;:&amp;lt;gidInfo&amp;gt;&lt;/li&gt;&lt;li&gt;&amp;lt;source&amp;gt;&lt;/li&gt;&lt;li&gt;&amp;lt;count&amp;gt;&lt;/li&gt;&lt;li&gt;&amp;lt;modelInfo&amp;gt;&lt;/li&gt;&lt;li&gt;&amp;lt;modelInfoBefore&amp;gt;&lt;/li&gt;&lt;li&gt;&amp;lt;typeLevel&amp;gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
           <mxGeometry x="380" y="230" width="220" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="7Vk1GqJ0Fqkz_hd2wlw9-57" value="&lt;h1&gt;注意&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;如果type类型是imsi或者pnmd5，则强制汇报次数(count)为1&lt;/li&gt;&lt;li&gt;如果某个id，对应的gidMap的size大于100,000，则其他数据不再加入gidMap并记录&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="7Vk1GqJ0Fqkz_hd2wlw9-57" value="&lt;h1&gt;注意&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;如果type类型是imsi或者pnmd5，则强制机型汇报次数(count)为1&lt;/li&gt;&lt;li&gt;如果某个id，对应的gidMap的size大于100,000，则其他数据不再加入gidMap并记录&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="370" y="430" width="330" height="120" as="geometry" />
         </mxCell>
         <mxCell id="7Vk1GqJ0Fqkz_hd2wlw9-63" value="&lt;font style=&quot;font-size: 24px&quot;&gt;&lt;b&gt;map阶段&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
@@ -165,38 +175,47 @@
         </mxCell>
         <mxCell id="7Vk1GqJ0Fqkz_hd2wlw9-72" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7Vk1GqJ0Fqkz_hd2wlw9-66" target="7Vk1GqJ0Fqkz_hd2wlw9-70">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="110" y="780" as="targetPoint" />
+            <mxPoint x="110" y="732.5" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="150" y="730" />
-              <mxPoint x="150" y="790" />
+              <mxPoint x="150" y="682.5" />
+              <mxPoint x="150" y="742.5" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="7Vk1GqJ0Fqkz_hd2wlw9-66" value="机型是否为空" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="175" y="700" width="130" height="60" as="geometry" />
+          <mxGeometry x="175" y="652.5" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7Vk1GqJ0Fqkz_hd2wlw9-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="7Vk1GqJ0Fqkz_hd2wlw9-67">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="240" y="870" as="targetPoint" />
+            <mxPoint x="240" y="822.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7Vk1GqJ0Fqkz_hd2wlw9-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="7Vk1GqJ0Fqkz_hd2wlw9-67" target="7Vk1GqJ0Fqkz_hd2wlw9-75">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="7Vk1GqJ0Fqkz_hd2wlw9-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="7Vk1GqJ0Fqkz_hd2wlw9-67">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="640" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="410" y="758" />
+              <mxPoint x="410" y="640" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="7Vk1GqJ0Fqkz_hd2wlw9-67" value="根据type类型&lt;br&gt;count字段值加权" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="270" y="780" width="120" height="50" as="geometry" />
+          <mxGeometry x="270" y="732.5" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="7Vk1GqJ0Fqkz_hd2wlw9-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="7Vk1GqJ0Fqkz_hd2wlw9-70" target="7Vk1GqJ0Fqkz_hd2wlw9-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7Vk1GqJ0Fqkz_hd2wlw9-70" value="count字段值" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="90" y="780" width="120" height="50" as="geometry" />
+          <mxGeometry x="90" y="732.5" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="7Vk1GqJ0Fqkz_hd2wlw9-75" value="&lt;h1&gt;权重计算&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span&gt;type = &quot;imei&quot; : 5 * count&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;type = &quot;mac&quot; : 4 * count&lt;/li&gt;&lt;li&gt;type = &quot;idfa&quot; : 3 * count&lt;/li&gt;&lt;li&gt;type = &quot;oaid&quot; : 3 * count&lt;/li&gt;&lt;li&gt;type = &quot;adid&quot; : 3 * count&lt;/li&gt;&lt;li&gt;type = &quot;cid&quot; : 3 * count&lt;/li&gt;&lt;li&gt;type = 其他 : count&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="420" y="585" width="220" height="155" as="geometry" />
+        <mxCell id="7Vk1GqJ0Fqkz_hd2wlw9-75" value="&lt;h1&gt;机型权重计算&lt;/h1&gt;&lt;div&gt;计算结果为&lt;/div&gt;GIdInfo.getModelcnt()&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span&gt;type = &quot;imei&quot; : 5 * count&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;type = &quot;mac&quot; : 4 * count&lt;/li&gt;&lt;li&gt;type = &quot;idfa&quot; : 3 * count&lt;/li&gt;&lt;li&gt;type = &quot;oaid&quot; : 3 * count&lt;/li&gt;&lt;li&gt;type = &quot;adid&quot; : 3 * count&lt;/li&gt;&lt;li&gt;type = &quot;cid&quot; : 3 * count&lt;/li&gt;&lt;li&gt;type = 其他 : count&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="585" width="300" height="205" as="geometry" />
         </mxCell>
-        <mxCell id="7Vk1GqJ0Fqkz_hd2wlw9-82" value="&lt;h1&gt;排序&lt;/h1&gt;&lt;ul&gt;&lt;li&gt;type = &quot;imei&quot; : 5 * count&lt;/li&gt;&lt;li&gt;type = &quot;mac&quot; : 4 * count&lt;/li&gt;&lt;li&gt;type = &quot;idfa&quot; : 3 * count&lt;/li&gt;&lt;li&gt;type = &quot;oaid&quot; : 3 * count&lt;/li&gt;&lt;li&gt;type = &quot;adid&quot; : 3 * count&lt;/li&gt;&lt;li&gt;type = &quot;cid&quot; : 3 * count&lt;/li&gt;&lt;li&gt;type = 其他 : count&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="414" y="830" width="220" height="180" as="geometry" />
+        <mxCell id="7Vk1GqJ0Fqkz_hd2wlw9-82" value="&lt;h1&gt;排序&lt;/h1&gt;&lt;ol&gt;&lt;li&gt;第1优先机型权重最大的gid：GIdInfo.getModelcnt()&lt;/li&gt;&lt;li&gt;如果机型次数相等，选出个推id汇报次数最多的gid：&lt;br&gt;GIdInfo.getCount()&lt;br&gt;&lt;/li&gt;&lt;li&gt;如果个推id汇报次数相等，选出外部id汇报次数最多的gid：&lt;br&gt;GIdInfo.getExternalCount()&lt;br&gt;&lt;/li&gt;&lt;li&gt;如果外部id汇报次数相等：&lt;br&gt;如果type = &quot;imsi&quot; or &quot;phone_md5&quot;，则选择GIdInfo.getUpdateTime()最大的；&lt;br&gt;其他情况下，选择GIdInfo.getGidCreateTime()最小的（也就是CreateTime最早的）&lt;br&gt;&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="414" y="782.5" width="376" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="7Vk1GqJ0Fqkz_hd2wlw9-84" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;输出字段&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;&amp;lt;id&amp;gt;（imei、idfa等等）&lt;/li&gt;&lt;li&gt;&amp;lt;type&amp;gt;（id类型）&lt;/li&gt;&lt;li&gt;&amp;lt;gid&amp;gt;（投票出的唯一gid）&lt;/li&gt;&lt;li&gt;&amp;lt;create_time&amp;gt;（该gid的创建时间）&lt;br&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;&amp;lt;modelInfoStr&amp;gt;（机型信息，格式如下：&lt;br&gt;SECOND_RECORD_SPLIT(&quot;&amp;amp;&quot;) &lt;br&gt;+ modelName&lt;br&gt;+ SECOND_INNER_SPLIT(&quot;=&quot;) &lt;br&gt;+ modelInfo.getCnt() &lt;br&gt;+ SECOND_INNER_SPLIT(&quot;=&quot;) &lt;br&gt;+ modelInfo.getUpdateTime()）&lt;br&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;&amp;lt;sourceStr&amp;gt;（数据源，格式如下：&lt;br&gt;SECOND_RECORD_SPLIT(&quot;&amp;amp;&quot;) &lt;br&gt;+ key.toString()(主键) &lt;br&gt;+ SECOND_INNER_SPLIT(&quot;=&quot;) &lt;br&gt;+ sourceLltMap.get(key)&lt;br&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;&amp;lt;modelInfoBeforeStr&amp;gt;（之前的机型信息，来自于map阶段的输入&amp;lt;modelInfoBefore&amp;gt;）&lt;/li&gt;&lt;li&gt;&amp;lt;typeLevel&amp;gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="420" y="992.5" width="370" height="390" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
